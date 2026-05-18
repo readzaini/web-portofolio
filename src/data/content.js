@@ -15,6 +15,15 @@ const contents = [
         project_url: 'https://github.com/readzaini/oop-project-dataCleaning',
         article: 'https://github.com/readzaini/oop-project-dataCleaning/blob/main/readme.md'
   },
+  {
+    id:3,
+    url:'/images/formula.png',
+    title: 'Excel Formula Problem Solving',
+    description: 'Hands-on Excel exercises covering lookup functions, logical formulas, dynamic arrays, data validation, and spreadsheet analysis techniques.',
+    project_url:'https://github.com/readzaini/Excersise-Excel/tree/main/Worksheet%20Formula',
+    article:'https://github.com/readzaini/Excersise-Excel/blob/main/Worksheet%20Formula/README.md',
+    file:'https://github.com/readzaini/Excersise-Excel/blob/main/Worksheet%20Formula/woorksheet_formula_exercise.xlsx'
+  }
 ]
 
 export default contents

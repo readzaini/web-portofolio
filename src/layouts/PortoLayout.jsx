@@ -3,7 +3,7 @@ import ItemPage from "../components/ItemPage"
 export default function PortoLayout(){
 
     return(
-        <div className="bg-[#021247] flex flex-col gap-4 max-w-screen h-screen">
+        <div className="bg-[#021247] flex flex-col gap-4 max-w-screen min-h-screen">
             {/* header */}
             <div className="flex flex-col gap-8 md:(gap-12)">
                 <h1 className="text-white font-bold md:(text-2xl w-80) text-xl h-10 px-2 py-4">Hello Welcome to Zaini Ahmad Project's</h1>
@@ -17,7 +17,7 @@ export default function PortoLayout(){
                 
                 </p>
             </div>
-            <div className="w-full grid grid-cols-1 md:(grid-cols-4) gap-4 px-2">
+            <div className="w-full grid grid-cols-1 md:(grid-cols-4) gap-4 px-2 items-start">
                 {
                     contents.map((item) => (
                         <ItemPage  itemKey={item.id} itemContent={item}/>
