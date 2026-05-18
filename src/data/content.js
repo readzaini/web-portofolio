@@ -28,7 +28,7 @@ const contents = [
     id:4,
     url:'/images/lr.png',
     title: 'Univariate Linear Regression from Scratch',
-    description: 'Built a univariate linear regression model from scratch using Python and gradient descent to predict student GPA from SAT scores. Includes data exploration, feature scaling, cost function optimization, residual analysis, and model diagnostics without relying on machine learning libraries.',
+    description: 'Built a univariate linear regression model from scratch using Python and gradient descent to predict student GPA from SAT scores without relying on machine learning libraries.',
     project_url:'https://github.com/readzaini/linear-regression-univariate-project',
     article:'https://github.com/readzaini/linear-regression-univariate-project/blob/main/Linear_regression.ipynb',
   }
