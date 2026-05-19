@@ -17,7 +17,7 @@ export default function PortoLayout(){
                 
                 </p>
             </div>
-            <div className="w-full grid grid-cols-1 md:(grid-cols-4) gap-4 px-2 items-start">
+            <div className="w-full grid grid-cols-1 md:(grid-cols-4) gap-4 px-2 py-2 items-start">
                 {
                     contents.map((item) => (
                         <ItemPage  itemKey={item.id} itemContent={item}/>

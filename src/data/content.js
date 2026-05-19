@@ -28,10 +28,18 @@ const contents = [
     id:4,
     url:'/images/lr.png',
     title: 'Univariate Linear Regression from Scratch',
-    description: 'Built a univariate linear regression model from scratch using Python and gradient descent to predict student GPA from SAT scores without relying on machine learning libraries.',
+    description: 'Built a univariate linear regression model from scratch using Python and gradient descent to predict student GPA from SAT scores',
     project_url:'https://github.com/readzaini/linear-regression-univariate-project',
     article:'https://github.com/readzaini/linear-regression-univariate-project/blob/main/Linear_regression.ipynb',
-  }
+  },
+  {
+    id:5,
+    url:'/images/sales.png',
+    title:'Multiple Linear Regression for Sales Prediction',
+    description:'Built a multiple linear regression model to predict product sales based on TV, radio, and newspaper advertising budgets Using polynomial regression.',
+    project_url:'https://github.com/readzaini/ml-project/tree/main/Linear_regression',
+    article:'https://github.com/readzaini/ml-project/blob/main/Linear_regression/Sales_Amount_Multiple_Linear_Regression.ipynb',
+}
 ]
 
 export default contents
