@@ -39,7 +39,16 @@ const contents = [
     description:'Built a multiple linear regression model to predict product sales based on TV, radio, and newspaper advertising budgets Using polynomial regression.',
     project_url:'https://github.com/readzaini/ml-project/tree/main/Linear_regression',
     article:'https://github.com/readzaini/ml-project/blob/main/Linear_regression/Sales_Amount_Multiple_Linear_Regression.ipynb',
-}
+  },
+   {
+    id:6,
+    url:'/images/home.png',
+    title:'House Price Prediction with Regularized Regression',
+    description:'Extended the house price prediction project by applying Ridge and Lasso regression to address multicollinearity, compare validation MAPE, and improve model generalization.',
+    project_url:'https://github.com/readzaini/ml-project/tree/main/Linear_regression',
+    article:'https://github.com/readzaini/ml-project/blob/main/Linear_regression/House_Price_Linear_Regression.ipynb',
+  },
+
 ]
 
 export default contents
