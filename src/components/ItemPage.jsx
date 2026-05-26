@@ -10,7 +10,7 @@ export default function ItemPage({itemKey,itemContent}){
             {/* content */}
             <div className="px-2 py-2 flex flex-col gap-2 w-1/2">
                 {/* title */}
-                <h1 className="text-sm md:(text-[12pt]) font-bold">{itemContent?.title}</h1>
+                <h1 className="text-sm md:(text-[9pt]) font-bold">{itemContent?.title}</h1>
                 <p className="text-[10pt] leading-4 text-left md:(text-[7pt] leading-3)">{itemContent?.description}</p>
                 <p className="text-[10pt] text-left md:(text-[8pt])"><b>Project Url : </b> 
                     <a 
