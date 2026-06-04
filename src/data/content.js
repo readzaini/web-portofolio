@@ -48,6 +48,14 @@ const contents = [
     project_url:'https://github.com/readzaini/ml-project/tree/main/Linear_regression',
     article:'https://github.com/readzaini/ml-project/blob/main/Linear_regression/House_Price_Linear_Regression.ipynb',
   },
+   {
+    id:7,
+    url:'/images/ad_click_image.png',
+    title:'Advertisement Click Behaviour Prediction with Logistic Regression',
+    description: 'Built an end-to-end machine learning workflow for predicting whether users will click online advertisements',
+    project_url:'https://github.com/readzaini/ml-project/tree/main/Classification/Ad%20Click%20Behaviour',
+    article:'https://github.com/readzaini/ml-project/blob/main/Classification/Ad%20Click%20Behaviour/Advertising.ipynb',
+  },
 
 ]
 
