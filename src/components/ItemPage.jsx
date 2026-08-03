@@ -24,6 +24,8 @@ export default function ItemPage({itemKey,itemContent}){
 
                     </a>
                 </p>
+                { itemContent.article &&
+
                 <p className="text-[10pt] text-left md:(text-[8pt])"><b>Article : </b> 
                     <a 
                         className="underline hover:text-blue-400" 
@@ -34,6 +36,7 @@ export default function ItemPage({itemKey,itemContent}){
                         Click Here
                     </a>
                 </p>
+                }
                 {itemContent.file &&
                 <p className="text-[10pt] text-left md:(text-xs)"><b>File : </b> 
                     <a 

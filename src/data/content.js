@@ -56,6 +56,13 @@ const contents = [
     project_url:'https://github.com/readzaini/ml-project/tree/main/Classification/Ad%20Click%20Behaviour',
     article:'https://github.com/readzaini/ml-project/blob/main/Classification/Ad%20Click%20Behaviour/Advertising.ipynb',
   },
+  {
+    id:8,
+    url:'/images/komdigi.png',
+    title:'Impact Big Issue on Social Media Performance of Komdigi in June 2026',
+    description: 'In this Project, we use time-serie analyze to analyze social media metric of komdigi',
+    project_url:'https://drive.google.com/file/d/12neryv7zXNgC-ddPhhneow-3Gl2NTBVz/view?usp=sharing',
+  },
 
 ]
 
